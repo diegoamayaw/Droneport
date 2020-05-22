@@ -272,7 +272,7 @@ client.on_connect = on_connect
 client.on_message = on_message
 client.on_publish = on_publish
 
-client.username_pw_set("fjzobzzq", "yvU8HXpyeaRv")
-client.connect("soldier.cloudmqtt.com", 17132)
+client.username_pw_set("********", "********")
+client.connect("*********************", 00000)
 
 client.loop_forever()
